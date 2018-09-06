@@ -1,0 +1,11 @@
+version: '1'
+
+services:
+    php:
+        volumes:
+            - app-sync:/var/www/symfony
+            - ./logs/symfony:/var/www/symfony/var/logs
+            - ./key/ssh/id_rsa:/root/.ssh/id_rsa:ro
+volumes:
+  app-sync:
+    external: true

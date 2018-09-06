@@ -1,0 +1,4 @@
+/logs
+/.data
+.idea/*
+/.docker-sync/*
