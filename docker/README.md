@@ -22,7 +22,7 @@ Docker-symfony gives you everything you need for developing Symfony application.
         
         ```yml
         # ./docker/docker-sync.yml
-        version: '1'
+        version: '3'
         syncs:
            # IMPORTANT: this name must be unique! 
            app-sync:
@@ -33,7 +33,7 @@ Docker-symfony gives you everything you need for developing Symfony application.
          
          ```yml
          # ./docker/docker-compose.sync.yml
-         version: '1'
+         version: '3'
           
          services:
              php:
