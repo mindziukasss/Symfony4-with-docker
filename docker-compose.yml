@@ -18,7 +18,7 @@ services:
             args:
                 TIMEZONE: ${TIMEZONE}
         volumes:
-            - ${SYMFONY_APP_PATH}:/var/www/symfony
+#             - ${SYMFONY_APP_PATH}:/var/www/symfony
             - ./docker/logs/symfony:/var/www/symfony/var/logs
             - ./docker/key/ssh/id_rsa:/root/.ssh/id_rsa:ro
         environment:
